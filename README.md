@@ -1,5 +1,7 @@
 # CS3_1stQtrPortfolio_Mendoza
 
+![Portfolio](https://wiztoonz.com/wp-content/uploads/2022/04/Blog-Post-Portfolio.jpg)
+
 ## Instructions
 1. Make a copy of this repository to your own github repository.
 2. Change the _Mendoza to your own lastname.
