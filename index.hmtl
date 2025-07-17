@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Template</title>
+  </head>
+  <body>  
+    <h1>Template for the exercises</h1>
+    <p>By <replace with your name</p>
+    <script>
+        // this is where your JS codes
+    </script>
+  </body>
+</html>
