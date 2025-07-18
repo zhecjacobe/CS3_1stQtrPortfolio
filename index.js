@@ -1,3 +1,0 @@
-/*
-  node.js to create and run a webservice for the portfolio on a local computer
-*/
