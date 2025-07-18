@@ -12,7 +12,7 @@
 7. Run and Test the copied files by installing Liver Server extensions by pressing **Ctrl-Shift-X**. Search for **Liver Server** then install it.
 8. Press **Ctrl-Shift-E**, look for **index.html** and mouse right-click over it, then select Open with Live Server, then select the browser you would like to use to see the result.
 9. You should see the a link to the First Exercise and Hello World should be displayed.
-10. Try to Personalize **index.html** and **public/Q1_1stGraded.html** by including your name and other information you would like to include on the display. Save by pressing **Ctrl-S**
+10. Try to Personalize **index.html**, **public/Q1_1stGraded.html** and **readme.md** by including your name and other information you would like to include on the display. Save by pressing **Ctrl-S**
 11. Refresh your browser to see the results of your edits done on line 10.
 
 ## Instructions to create your backup CS3_1st Qtr Portfolio in github.com
