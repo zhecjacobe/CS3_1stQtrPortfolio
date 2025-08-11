@@ -1,8 +1,17 @@
 <script>
-    let food = `onion rings`;
-    let age = 14;
-    let maxAge = 100;
-    let numPerDay = 4;
-    let totalRequired = (numPerDay * 365) * (maxAge - age);
-    document.write (`You will need ${totalRequired} packs of ${food} to last you until the ripe old age of ${maxAge}`)
-</script>
+    let age = window.prompt("Enter your age: ", 14);
+    let maxAge = window.promt(" You will live until the ripe age of: ", 100);
+    let numPerDay = window.prompt("Number of packs of onion rings daily: ", 2);
+    let sure = confirm("Sure of your answers?");
+    if (sure) {
+        let totalRequired = (Number(numPerDay) * 365) * (Number(maxAge) - Number(age));
+        document.write("You will need " + totalRequired + " hanggang" + $(maxAge) + "years old");
+        alert(`You will need ${totalRequired} hanggang maging ${maxAge} years old`);
+        console.log(`You will need ${totalRequired} hanggang maging ${maxAge} years old`);
+    }
+else
+{
+    window.alert("Please click on run again");
+
+}
+    </script>
