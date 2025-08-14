@@ -1,17 +1,91 @@
+</body>
+</html> 
+<h1> gutom ka ba? </h1>
+<label> Enter your age
+    <input id= "age" />
+</label><br>
+<label> Enter your max age
+    <input id= "maxAge" />
+</label><br>
+<label> Enter number of onion rings
+    <input id= "food" />
+</label><br>
+<button onclick="computeResult()" > Accept Input </button> </p>
+<p>Result: <span id="resultHere"></span></p>
 <script>
-    let age = window.prompt("Enter your age: ", 14);
-    let maxAge = window.promt(" You will live until the ripe age of: ", 100);
-    let numPerDay = window.prompt("Number of packs of onion rings daily: ", 2);
+    function computeResult() {
+        let age = document.getElementById("age").value;
+        let maxAge = document.getElementById("maxAge").value;
+        let food = document.getElementById("food").value;
+        let totalRequired = (maxAge - age) * (food * 365);
+        document.getElementById("resultHere").innerHTML = "You will need " + totalRequired + " packs of onion rings until you die.";
+    }
+
+</script>
+
+<script>
+/* 
+    function checkResult() {
+        let aInput = document.getElementById("age").value;
+        document.getElementById("age").innerHTML = `<b> ${aInput} </b>`;
+    
+
+    <script> 
+        function checkResult() 
+            let bInput = document.getElementById("maxAge").value;
+            document.getElementById("maxAge").innerHTML = `<b> ${bInput} </b>`;
+        
+    
+ <script> 
+    function checkResult() {
+        let cInput = document.getElementById("food").value;
+        document.getElementById("food").innerHTML = `<b> ${cInput} </b>`;
+    }
+
+    <script> 
+        function checkResult() {
+            let dInput = document.getElementById("resultHere").value;
+            document.getElementById("resultHere").innerHTML = `<b> ${dInput} </b>`;
+            document.getElementBYyId(`You will need ${resultHere} packs of onion rings to live until the ripe age of ${maxAge}`);
+
+        }
+    </script>
+
+
+    <script>
+ 
+   /* <h1> gutom ka ba? </h1>
+    <label> Enter your age
+        <input id= "age" />
+    </label><br>
+    <label> Enter your max age
+        <input id= "maxAge" />
+    </label><br>
+    <label> Enter number of snack
+        <input id= "age" />
+    </label><br>
+    <p> Result :
+        <span id= "resultHere"></span>
+    </p>
+    <button onclick> Accept Input</button>
+    
+    </body>
+
+
+<script>
+
+  /*let age = window.prompt("Enter your age: ", 14);
+    let maxAge = promt(" You will live until the ripe age of: ", 100);
+    let numPerDay = prompt("Number of packs of onion rings daily: ", 2);
     let sure = confirm("Sure of your answers?");
     if (sure) {
         let totalRequired = (Number(numPerDay) * 365) * (Number(maxAge) - Number(age));
-        document.write("You will need " + totalRequired + " hanggang" + $(maxAge) + "years old");
-        alert(`You will need ${totalRequired} hanggang maging ${maxAge} years old`);
-        console.log(`You will need ${totalRequired} hanggang maging ${maxAge} years old`);
+        document.write("You will need ",  $(totalRequired),  " hanggang" + $(maxAge) + "years old");
+        alert("You will need" , $(totalRequired) , "hanggang maging",  $(maxAge),  "years old");
+        console.log("You will need ", $(totalRequired) , "hanggang maging" , $(maxAge) , "years old");
     }
 else
 {
     window.alert("Please click on run again");
 
-}
-    </script>
+*/
